@@ -1,5 +1,6 @@
 # ReactPersonalPage
 This is the source code of my built static personal page on git
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
