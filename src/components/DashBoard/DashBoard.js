@@ -45,8 +45,12 @@ export class Dashboard extends React.Component {
         accessor: 'keywords' // String-based value accessors!
       },
       {
-        Header: 'descriptions',
+        Header: 'Descriptions',
         accessor: 'descriptions' // String-based value accessors!
+      },
+      {
+        Header: 'Github',
+        accessor: 'github' // String-based value accessors!
       }
     ];
     console.log(this.state)
@@ -54,6 +58,7 @@ export class Dashboard extends React.Component {
     return (
       <div className="Dashboard">
         <h1>Dashboard</h1>
+        <a href="https://github.com/linxuhao/ReactPersonalPage">Github</a>
         <Table
           data={this.state.project_data}
           columns={project_columns}
