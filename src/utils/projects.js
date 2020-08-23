@@ -83,8 +83,7 @@ const projects = [
         keywords: ["JavaFx", "Selenium"],
         descriptions: ["A simple Gui to configure actions to execute automaticly on web ",
             "Including navigate, fill, click and select",
-            "Can save and load configuration from file",
-            "being flexible, dynamic and mobile, finding one's way, forgetting in order to move forward..."
+            "Can save and load configuration from file"
         ],
         media: [],
         github:"https://github.com/linxuhao/Selenuim-auto-web"
