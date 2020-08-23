@@ -53,12 +53,12 @@ export class Dashboard extends React.Component {
         accessor: 'github' // String-based value accessors!
       }
     ];
-    console.log(this.state)
-    console.log(project_columns)
+    //console.log(this.state)
+    //console.log(project_columns)
     return (
       <div className="Dashboard">
         <h1>Dashboard</h1>
-        <a href="https://github.com/linxuhao/ReactPersonalPage">Github</a>
+        <a href="https://github.com/linxuhao/linxuhao.github.io">Github</a>
         <Table
           data={this.state.project_data}
           columns={project_columns}
