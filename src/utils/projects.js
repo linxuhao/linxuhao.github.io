@@ -10,7 +10,12 @@ const projects = [
             "Designed to be played on arcadia's(a UTC student game making association) arcade machine ",
             "Players have to cooperate to reach a maximun high score ",
             "and then turn on each other to absorb the score for himself "],
-        media: [],
+        media: [
+            {
+                type: "web",
+                content: "https://siyu6974.github.io/Trayinia/"
+            }
+        ],
         github: "private"
     },
     {
@@ -65,11 +70,11 @@ const projects = [
         ],
         media: [
             {
-                type: "google_link",
+                type: "appstore_google",
                 content: "https://play.google.com/store/apps/details?id=com.tx.agir"
             },
             {
-                type: "apple_link",
+                type: "appstore_apple",
                 content: "https://appsto.re/cn/WDN8fb.i"
             }
         ],
