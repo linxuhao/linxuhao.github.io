@@ -30,11 +30,15 @@ const projects = [
             "so players can 'hit' the virtual ball with their real hand xD "],
         media: [
             {
+                type: "web",
+                content: "https://linxuhao.github.io/AirHockey/"
+            },
+            {
                 type: "video",
                 content: "../../public/ressources/AirHockey_reborn.mp4"
             }
         ],
-        github: "private"
+        github: "https://github.com/linxuhao/AirHockey/"
     },
     {
         id: "Colorant",
